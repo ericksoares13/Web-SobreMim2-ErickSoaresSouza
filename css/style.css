@@ -1,6 +1,13 @@
 @font-face {
-    font-family: 'AvenyT';
-    src: url(/fontes/Timeless.ttf).otf) format('truetype');
+    font-family: 'Geoge Cafe';
+    src: url(/fontes/Louis\ George\ Cafe.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aveny T';
+    src: url(/fontes/FontsFree-Net-Aveny-T-WEB.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,13 +16,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'AvenyT'
 }
 
 .center{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1280px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -31,22 +37,23 @@ header{
     padding: 20px 0;
 }
 
-.erick{
+.logo{
     width: 50%;
 }
 
 .menu{
-    padding-top: 30px;
+    padding-top: 40px;
     width: 50%;
     text-align: right;
+    font-family: 'Aveny T'
 }
 
 .menu opcoes{
-    color: gray;
+    color: rgb(91, 90, 94);
     text-decoration: none;
     font-weight: lighter;
     margin-right: 15px;
-    margin-left: 30px;
+    margin-left: 50px;
     font-size: 30;
 }
 
@@ -62,13 +69,13 @@ section.extras{
     width: 950px;
     height: 950px;
     border-radius: 50%;
-    background-color: lightskyblue;
+    background-image: linear-gradient(to top, lightskyblue, rgb(26, 49, 62));
 }
 
 .rede-social{
     position: absolute;
     right: 410;
-    top: 20;
+    top: 180;
 }
 
 .rede-social img{
