@@ -39,6 +39,13 @@ header{
 
 .logo{
     width: 50%;
+    color: rgb(62, 120, 153);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 50;
+    font-family: 'Geoge Cafe';
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .menu{
@@ -49,7 +56,7 @@ header{
 }
 
 .menu opcoes{
-    color: rgb(91, 90, 94);
+    color: rgb(26, 49, 62);
     text-decoration: none;
     font-weight: lighter;
     margin-right: 15px;
@@ -81,4 +88,9 @@ section.extras{
 .rede-social img{
     display: block;
     padding-top: 20px;
+}
+
+.texto-sobre{
+    font-family: 'Geoge Cafe';
+    padding-left: 20px;
 }
