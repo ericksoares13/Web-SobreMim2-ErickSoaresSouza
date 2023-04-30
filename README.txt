@@ -1,0 +1,1 @@
+Favor executar pelo VsCode com a opção LiveServer (abrindo pelo navegador não está linkando com as fontes utilizadas).
