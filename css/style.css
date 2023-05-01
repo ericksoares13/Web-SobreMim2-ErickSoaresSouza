@@ -95,10 +95,24 @@ section.extras{
     padding-left: 20px;
 }
 
+.center-baby{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+    padding-left: 110px;
+}
+
+.texto-sobre-baby{
+    font-family: 'Geoge Cafe';
+    padding-left: 340px;
+}
+
 .slider {
     display: block;
     height: 300px;
-    width: 600px;
+    width: 1400px;
     margin: left;
     margin-top: 0px;
     position: relative;
@@ -128,7 +142,7 @@ section.extras{
     bottom: 10px;
     cursor: pointer;
     display: block;
-    height: 2px;
+    height: 3px;
     position: absolute;
     width: 30px;
     z-index: 10;
@@ -136,27 +150,27 @@ section.extras{
 
 .slider li:nth-child(1) label {
     left: 140px;
-    top: 330px;
+    top: 333px;
 }
 
 .slider li:nth-child(2) label {
-    left: 197px;
-    top: 330px;
+    left: 200px;
+    top: 333px;
 }
 
 .slider li:nth-child(3) label {
-    left: 254px;
-    top: 330px;
+    left: 260px;
+    top: 333px;
 }
 
 .slider li:nth-child(4) label {
-    left: 311px;
-    top: 330px;
+    left: 320px;
+    top: 333px;
 }
 
 .slider li:nth-child(5) label {
-    left: 368px;
-    top: 330px;
+    left: 380px;
+    top: 333px;
 }
 
 .slider li input:checked ~ img {

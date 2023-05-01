@@ -1,1 +1,2 @@
 Favor executar pelo VsCode com a opção LiveServer (abrindo pelo navegador não está linkando com as fontes utilizadas).
+Na página ErickBaby existe um carrossel de imagem, que as imagens só trocam ao clicar nas barras referentes a cada "slide".
