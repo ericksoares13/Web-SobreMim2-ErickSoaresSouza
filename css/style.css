@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Geoge Cafe';
+    font-family: 'George Cafe';
     src: url(/fontes/Louis\ George\ Cafe.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -43,7 +43,7 @@ header{
     text-decoration: none;
     font-weight: bolder;
     font-size: 50;
-    font-family: 'George Cafe';
+    font-family: "George Cafe";
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -91,7 +91,7 @@ section.extras{
 }
 
 .texto-sobre{
-    font-family: 'Geoge Cafe';
+    font-family: 'George Cafe';
     padding-left: 20px;
 }
 
@@ -105,7 +105,7 @@ section.extras{
 }
 
 .texto-sobre-baby{
-    font-family: 'Geoge Cafe';
+    font-family: 'George Cafe';
     padding-left: 340px;
 }
 
@@ -177,4 +177,9 @@ section.extras{
     opacity: 1;
     visibility: visible;
     z-index: 10;
+}
+
+.moldura {
+    padding-left: 118px;
+    padding-top: 20px;
 }
